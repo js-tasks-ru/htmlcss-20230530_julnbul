@@ -1,6 +1,38 @@
 .main {
-  padding: 68px 0 92px;
+  padding: 67px 0 205px;
   background: var(--grey-1);
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
+}
+
+.preview__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.preview-card {
+  width: 350px;
+  height: 367px;
+  background-color: var(--white);
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 12px;
+}
+
+.preview-card__body {
+  height: 312px;
+}
+
+.preview-card__footer {
+  text-align: center;
+}
+
+.preview-card__title {
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: var(--black);
 }
