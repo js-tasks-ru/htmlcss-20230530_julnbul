@@ -46,15 +46,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 1px;
 }
 
 .histogram__column {
   background-color: var(--component);
   flex-grow: 1;
-}
-
-.histogram__column:not(:last-child) {
-  margin-right: 1px;
 }
 
 .histogram__column_large {
