@@ -1,13 +1,5 @@
 /* Стилизация аккордеона */
-.accordion {
-  padding: 20px;
-}
-
-.accordion__item:not(:last-child) {
-  margin-bottom: 8px;
-}
-
-.item-accordion {
+.accordion__item {
   padding: 24px 32px;
   font-family: 'Inter';
   font-style: normal;
@@ -18,7 +10,11 @@
   border-radius: 8px;
 }
 
-.item-accordion__summary {
+.accordion__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.accordion__summary {
   display: flex;
   justify-content: space-between;
   color: var(--black);
@@ -26,15 +22,15 @@
   user-select: none;
 }
 
-.item-accordion__summary:hover {
+.accordion__summary:hover {
   cursor: pointer;
 }
 
-.item-accordion[open] .item-accordion__marker {
+.accordion[open] .accordion__marker {
   transform: rotate(180deg);
 }
 
-.item-accordion__description {
+.accordion__description {
   padding-top: 16px;
   padding-bottom: 8px;
   color: var(--grey-4);
