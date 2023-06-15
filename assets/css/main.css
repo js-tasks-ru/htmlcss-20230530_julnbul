@@ -5,6 +5,8 @@
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
+@import '../../components/preview-card/preview-card.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 
 :root {
@@ -33,10 +35,10 @@
 }
 
 
-
-* {
+body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-weight: 400;
     color: var(--black);
 }
 
