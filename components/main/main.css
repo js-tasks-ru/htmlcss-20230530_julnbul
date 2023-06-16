@@ -4,3 +4,15 @@
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
 }
+
+.main_page-component {
+  padding: 0px;
+  border: none;
+}
+
+.main__page-component {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 56px;
+}
+

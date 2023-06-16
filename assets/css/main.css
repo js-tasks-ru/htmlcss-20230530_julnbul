@@ -4,6 +4,11 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
+@import '../../components/container/container.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/component/component.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+
 
 
 :root {
@@ -31,9 +36,10 @@
     --component: #4263EB;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: var(--black);
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--black);
 }
 
