@@ -1,6 +1,7 @@
 .footer {
   font-family: 'Inter';
   padding: 71px 0 136px;
+  background-color: var(--white);
 }
 
 .footer_page-component {
