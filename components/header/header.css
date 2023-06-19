@@ -1,7 +1,50 @@
+.header {
+  padding-top: 16px;
+  background-color: var(--white);
+}
+
+.header__head {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__theme {
+  display: none;
+}
+
 .header__title {
-  padding: 96px 0 77px;
+  margin-bottom: 32px;
   font-family: 'Inter';
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 1.28;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding-top: 24px;
+  }
+
+  .header__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+  }
+
+  .header__head-right {
+    display: flex;
+  }
+
+  .header__menu {
+    display: block;
+    margin-right: 56px;
+  }
+
+  .header__theme {
+    display: block;
+  }
 }

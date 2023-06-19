@@ -3,19 +3,60 @@
 <html lang="ru">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
   <div class="page">
     <header class="header">
-      <div class="header__container container">
+      <div class="container">
+        <div class="header__head">
+          <a class="header__logo" href="index.html">
+            <img src="/assets/images/header/logo.svg" alt="logo">
+          </a>
+          <div class="header__head-right">
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link menu__link_activ">Components</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__theme">
+              <img class="header__light-theme" src="/assets/images/header/light-theme.svg" alt="">
+              <img class="header__dark-theme" src="/assets/images/header/dark-theme.svg" alt="">
+            </div>
+          </div>
+        </div>
         <h1 class="header__title">Reusable component library</h1>
+        <nav class="header__extra-menu extra-menu">
+          <ul class="extra-menu__list">
+            <li class="extra-menu__item">
+              <a href="#" class="extra-menu__link extra-menu__link_activ">All components</a>
+            </li>
+            <li class="extra-menu__item">
+              <a href="#" class="extra-menu__link">Elements</a>
+            </li>
+            <li class="extra-menu__item">
+              <a href="#" class="extra-menu__link">Containers</a>
+            </li>
+            <li class="extra-menu__item">
+              <a href="#" class="extra-menu__link">Templates</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <main class="main">
+    <main class="page__main main">
       <div class="main__container container">
-
+        
       </div>
     </main>
     <footer class="footer">
