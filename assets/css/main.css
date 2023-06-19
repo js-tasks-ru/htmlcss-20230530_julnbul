@@ -4,6 +4,11 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
+@import '../../components/container/container.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/component/component.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+
 @import '../../03-lection1/01-button/button.css';
 @import '../../components/container/container.css';
 @import '../../components/preview-card/preview-card.css';

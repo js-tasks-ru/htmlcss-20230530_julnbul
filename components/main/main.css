@@ -1,8 +1,19 @@
 .main {
-  padding: 67px 0 205px;
+  padding: 68px 0 92px;
   background: var(--grey-1);
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
+}
+
+.main_page-component {
+  padding-top: 36px;
+  border: none;
+}
+
+.main__page-component {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 56px;
 }
 
 .main__list {

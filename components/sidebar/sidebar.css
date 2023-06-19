@@ -1,0 +1,33 @@
+.sidebar-menu {
+  min-width: 229px;
+  font-family: 'Inter';
+  color: var(--black);
+}
+
+.sidebar-menu__title {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.sidebar-menu__list {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.sidebar-menu__item {
+ 
+}
+.sidebar-menu__item:not(:last-child, :nth-last-child(2)) {
+  margin-bottom: 4px;
+}
+.sidebar-menu__item:nth-last-child(2) {
+  margin-bottom: 30px;
+}
+.sidebar-menu__link {
+  color: var(--black);
+  cursor: pointer;
+}
+.sidebar-menu__link_active {
+  color: #D84910;
+}
