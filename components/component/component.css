@@ -11,7 +11,3 @@
   color: var(--grey-4);
   margin-bottom: 24px;
 }
-
-.component__histogram {
-  max-width: 300px;
-}
