@@ -16,3 +16,8 @@
   column-gap: 56px;
 }
 
+.main__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
