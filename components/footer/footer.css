@@ -1,12 +1,7 @@
 .footer {
-  display: none;
+  padding: 71px 0 136px;
+  background-color: var(--white);
 }
-
-@media (min-width: 992px) {
-  .footer {
-    display: block;
-    padding: 71px 0 136px;
-  }
 
   .footer__container {
     text-align: center;

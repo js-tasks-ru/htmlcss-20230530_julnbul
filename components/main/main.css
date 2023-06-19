@@ -1,6 +1,12 @@
 .main {
-  padding: 68px 0 92px;
+  padding: 67px 0 205px;
   background: var(--grey-1);
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
+}
+
+.main__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }

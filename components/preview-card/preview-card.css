@@ -1,0 +1,31 @@
+.preview-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 367px;
+  padding: 30px 25px;
+  color: var(--black);
+  background-color: var(--white);
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 12px;
+}
+
+.preview-card__body{
+  margin: auto 0;
+}
+.preview-card__footer {
+  text-align: center;
+}
+
+.preview-card__title {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.preview-card__description {
+  font-size: 16px;
+  line-height: 19px;
+}
