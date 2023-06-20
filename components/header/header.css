@@ -9,11 +9,10 @@
 
 .header__head {
   text-align: center;
-  margin-bottom: 48px;
 }
 
-.header__head_page-component {
-  margin-bottom: 0px;
+.header__head_card-prewiew {
+  margin-bottom: 48px;
 }
 
 .header__menu {
@@ -40,12 +39,11 @@
   .header__head {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 38px;
   }
 
-  .header__head_page-component {
-    margin-bottom: 0px;
-  }
+   .header__head_card-prewiew {
+    margin-bottom: 38px;
+  } 
 
   .header__col {
     display: flex;
