@@ -6,6 +6,10 @@
   font-family: 'Inter';
 }
 
+.histogram_page-component {
+  max-width: 300px;
+}
+
 .histogram__head {
   display: flex;
   justify-content: space-between;
