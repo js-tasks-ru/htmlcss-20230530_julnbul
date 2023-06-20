@@ -1,11 +1,19 @@
 .header {
   padding-top: 16px;
-  background-color: var(--white);
+  font-family: 'Inter';
+}
+
+.header_page-component {
+  padding: 16px 0;
 }
 
 .header__head {
   text-align: center;
   margin-bottom: 48px;
+}
+
+.header__head_page-component {
+  margin-bottom: 0px;
 }
 
 .header__menu {
@@ -18,8 +26,6 @@
 
 .header__title {
   margin-bottom: 32px;
-  font-family: 'Inter';
-  font-weight: 400;
   font-size: 28px;
   line-height: 38px;
 }
@@ -28,11 +34,17 @@
   .header {
     padding-top: 24px;
   }
-
+  .header_page-component {
+    padding: 16px 0 0;
+  }
   .header__head {
     display: flex;
     justify-content: space-between;
     margin-bottom: 38px;
+  }
+
+  .header__head_page-component {
+    margin-bottom: 0px;
   }
 
   .header__col {
@@ -47,6 +59,8 @@
   .header__theme {
     display: block;
   }
-}
-  
+
+  .header__title {
+    margin-bottom: 40px;
+  }
 }
