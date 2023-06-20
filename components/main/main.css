@@ -8,23 +8,28 @@
 
 .main__list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
   gap: 16px;
   margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  .main__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 992px) {
   .main {
     padding: 68px 0 92px;
-    background: var(--grey-1);
-    border-top: 1px solid var(--grey-2);
-    border-bottom: 1px solid var(--grey-2);
   }
+
   .main__list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 64px;
   }
-} 
+}
