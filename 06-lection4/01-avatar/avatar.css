@@ -1,0 +1,15 @@
+.avatar {
+  width: 102px;
+  height: 102px;
+}
+
+.avatar_large {
+  width: 200px;
+  height: 200px;
+}
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
