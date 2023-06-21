@@ -1,10 +1,64 @@
 .header {
-  background-color: var(--white);
-}
-.header__title {
-  padding: 96px 0 77px;
+  padding-top: 16px;
   font-family: 'Inter';
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 1.28;
+}
+
+.header_page-component {
+  padding: 16px 0;
+}
+
+.header__head {
+  text-align: center;
+}
+
+.header__head_card-prewiew {
+  margin-bottom: 48px;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__theme {
+  display: none;
+}
+
+.header__title {
+  margin-bottom: 32px;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding-top: 24px;
+  }
+  .header_page-component {
+    padding: 16px 0 0;
+  }
+  .header__head {
+    display: flex;
+    justify-content: space-between;
+  }
+
+   .header__head_card-prewiew {
+    margin-bottom: 38px;
+  } 
+
+  .header__col {
+    display: flex;
+  }
+
+  .header__menu {
+    display: block;
+    margin-right: 56px;
+  }
+
+  .header__theme {
+    display: block;
+  }
+
+  .header__title {
+    margin-bottom: 40px;
+  }
 }
