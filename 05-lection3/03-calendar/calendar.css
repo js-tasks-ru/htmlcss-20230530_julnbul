@@ -8,7 +8,10 @@
   font-family: 'Inter';
   text-align: center;
 }
-
+.calendar_preview {
+  padding: 0px;
+  border: none;
+}
 .calendar__title {
   font-weight: 600;
   font-size: 20px;
