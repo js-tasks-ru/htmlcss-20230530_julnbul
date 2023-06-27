@@ -3,20 +3,42 @@
 <html lang="ru">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../assets/css/main.css">
   <link rel="stylesheet" href="./input.css">
 </head>
 
 <body>
   <div class="text-input">
-    <label for="text" class="text-input__label">Label</label>
-    <input id="text" class="text-input__input" type="text" placeholder="Placeholder">
+    <label for="input" class="text-input__label">Label</label>
+    <div class="text-input__block-input">
+      <input id="input" type="text" placeholder="Placeholder">
+    </div>
+    <div class="text-input__result">Result</div>
   </div>
-  <div class="text-input">
-    <label for="success" class="text-input__label">Success</label>
-    <input id="success" class="text-input__input text-input__input_success" type="text" placeholder="Success">
-    
+
+  <div class="text-input text-input_success">
+    <label for="input-success" class="text-input__label">Label</label>
+    <div class="text-input__block-input">
+      <input id="input-success" type="text" placeholder="Placeholder">
+      <svg class="text-input__icon">
+        <use href="/assets/images/icons.svg#success"></use>
+      </svg>
+    </div>
+    <div class="text-input__result">Success</div>
   </div>
+
+  <div class="text-input text-input_error">
+    <label for="input-error" class="text-input__label">Label</label>
+    <div class="text-input__block-input">
+      <input id="input-error" type="text" placeholder="Placeholder">
+      <svg class="text-input__icon">
+        <use href="/assets/images/icons.svg#error"></use>
+      </svg>
+    </div>
+    <div class="text-input__result">Error</div>
+  </div>
+
 </body>
 
 </html>
