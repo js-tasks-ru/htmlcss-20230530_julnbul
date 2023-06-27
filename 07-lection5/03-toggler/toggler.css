@@ -1,10 +1,5 @@
 .toggler {
   display: inline-flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.toggler__element {
   position: relative;
 }
 
