@@ -21,16 +21,20 @@
   background: var(--white);
   border: 1px solid var(--grey-2);
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
 .checkbox__icon {
   display: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 24px;
   height: 24px;
- color: var(--white);
+  color: var(--white);
 }
 
 .checkbox__label {
