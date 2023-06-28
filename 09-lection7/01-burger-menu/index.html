@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <!-- Страница бургер-меню -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./burger-menu.css">
-        <script defer src="./burger-menu.js"></script>
-    </head>
-    <body>
 
-    </body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="./burger-menu.css">
+  <script defer src="./burger-menu.js"></script>
+</head>
+
+<body>
+  <button id="burger-menu-open" class="burger-menu-open">
+    <svg class="burger-menu-icon">
+      <use href="/assets/images/icons.svg#menu"></use>
+    </svg>
+  </button>
+
+  <div id="burger-menu" class="burger-menu">
+    <div class="burger-menu__header">
+      <button id="burger-menu-close" class="burger-menu__close">
+        <svg class="burger-menu__icon">
+          <use href="/assets/images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <a class="burger-menu__logo" href="index.html">
+        <img src="/assets/images/header/logo.svg" alt="logo">
+      </a>
+    </div>
+    <div class="burger-menu__theme">
+      <div class="burger-menu__theme-name">Dark mode</div>
+
+      <label class="toggler">
+        <input type="checkbox" class="toggler__input">
+        <div class="toggler__state">
+          <div class="toggler__control">
+            <div class="toggler__on"></div>
+          </div>
+        </div>
+      </label>
+    </div>
+    <nav class="burger-menu__sidebar-menu sidebar-menu">
+      <div class="sidebar-menu__card_burger-menu">
+        <div class="sidebar-menu__title sidebar-menu__title_burger-menu">Atoms</div>
+        <ul class="sidebar-menu__list_burger-menu">
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link sidebar-menu__link_active" href="#">Buttons</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Custom form elements</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-menu__card_burger-menu">
+        <div class="sidebar-menu__title sidebar-menu__title_burger-menu">Molecules</div>
+        <ul class="sidebar-menu__list_burger-menu">
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link sidebar-menu__link_active" href="#">Accordion</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Histogram</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Sceleton</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Tooltip</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Modal</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Calendar</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Avatar</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-menu__card_burger-menu">
+        <div class="sidebar-menu__title sidebar-menu__title_burger-menu">Organisms</div>
+        <ul class="sidebar-menu__list_burger-menu">
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link sidebar-menu__link_active" href="#">Header</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Footer</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Menu</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Sidebar</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Tabs</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Preview card</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-menu__card_burger-menu">
+        <div class="sidebar-menu__title sidebar-menu__title_burger-menu">Templates</div>
+        <ul class="sidebar-menu__list_burger-menu">
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link sidebar-menu__link_active" href="#">Main page</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Page component</a>
+          </li>
+          <li class="sidebar-menu__item_burger-menu">
+            <a class="sidebar-menu__link" href="#">Burger menu</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</body>
+
 </html>
