@@ -6,9 +6,9 @@
 }
 
 .skeleton__head {
-display: flex;
-align-items: center;
-margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 .skeleton__avatar {
@@ -20,17 +20,29 @@ margin-bottom: 24px;
 }
 
 .skeleton__description {
- flex-grow: 1;
+  flex-grow: 1;
 }
 
 .skeleton__text {
   height: 20px;
   background: var(--grey-gradient);
+  animation: bg 1s linear infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 300px 0;
+  }
 }
 
 .skeleton__text:not(:last-child) {
   margin-bottom: 8px;
 }
+
 .skeleton__text_small {
   width: 30%;
 }
