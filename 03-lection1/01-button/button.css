@@ -16,6 +16,10 @@
   user-select: none;
 }
 
+.button:active {
+  transform: translateY(3px);
+  transition: transform 0.2s linear;
+}
 .button:hover {
   cursor: pointer;
   background-color: var(--primary-hover);
