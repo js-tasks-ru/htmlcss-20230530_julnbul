@@ -45,7 +45,6 @@
   justify-content: end;
   background: var(--primary);
   border-color: var(--primary);
-
 }
 
 .toggler__input:checked~.toggler__state .toggler__on {
@@ -60,11 +59,9 @@
   background: var(--grey-2);
   border-color: var(--grey-2);
 }
-
 .toggler__input:disabled~.toggler__state .toggler__on {
   background: var(--grey-3);
 }
-
 .toggler__input:disabled~.toggler__state .toggler__label {
   color: var(--grey-2);
 }
