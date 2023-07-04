@@ -1,10 +1,3 @@
-.preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}
-
 .burger-menu-open {
   all: unset;
   cursor: pointer;
@@ -52,18 +45,4 @@
 .burger-menu__icon {
   width: 24px;
   height: 24px;
-}
-
-.burger-menu__theme {
-  display: flex;
-  justify-content: space-between;
-  padding: 24px 0;
-  border-bottom: 1px solid var(--grey-2);
-}
-
-.burger-menu__theme-name {
-  font-size: 16px;
-  font-family: Inter;
-  line-height: 24px;
-  color: var(--grey-4);
 }
