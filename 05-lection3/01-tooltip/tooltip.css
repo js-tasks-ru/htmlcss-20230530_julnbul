@@ -35,6 +35,6 @@
   transform: translateX(-50%);
 }
 
-.tooltip__text_preview {
+.tooltip_preview .tooltip__text{
   display: block;
 }

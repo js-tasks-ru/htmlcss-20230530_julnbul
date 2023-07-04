@@ -41,25 +41,33 @@
     </header>
     <main class="page__main main">
       <div class="tabs">
-        <input checked class="tabs__input" id="tab1" type="radio" name="tabs">
-        <input class="tabs__input" id="tab2" type="radio" name="tabs">
-        <input class="tabs__input" id="tab3" type="radio" name="tabs">
-        <input class="tabs__input" id="tab4" type="radio" name="tabs">
+        <input checked class="tabs__input" id="tabAll" type="radio" name="tab">
+        <input class="tabs__input" id="tabAtoms" type="radio" name="tab">
+        <input class="tabs__input" id="tabMolecules" type="radio" name="tab">
+        <input class="tabs__input" id="tabOrganisms" type="radio" name="tab">
+        <input class="tabs__input" id="tabTemplates" type="radio" name="tab">
+        <input class="tabs__input" id="tabPages" type="radio" name="tab">
 
-        <nav class="tabs-menu">
+        <nav class="tabs__menu">
           <div class="container">
-            <ul class="tabs-menu__list">
-              <li class="tabs-menu__item">
-                <label for="tab1" class="tabs-menu__link tabs-menu__link1">All components</label>
+            <ul class="tabs__list">
+              <li class="tabs__item">
+                <label for="tabAll" class="tabs__link tabs__linkAll">All components</label>
               </li>
-              <li class="tabs-menu__item">
-                <label for="tab2" class="tabs-menu__link tabs-menu__link2">Elements</label>
+              <li class="tabs__item">
+                <label for="tabAtoms" class="tabs__link tabs__linkAtoms">Atoms</label>
               </li>
-              <li class="tabs-menu__item">
-                <label for="tab3" class="tabs-menu__link tabs-menu__link3">Containers</label>
+              <li class="tabs__item">
+                <label for="tabMolecules" class="tabs__link tabs__linkMolecules">Molecules</label>
               </li>
-              <li class="tabs-menu__item">
-                <label for="tab4" class="tabs-menu__link tabs-menu__link4">Templates</label>
+              <li class="tabs__item">
+                <label for="tabOrganisms" class="tabs__link tabs__linkOrganisms">Organisms</label>
+              </li>
+              <li class="tabs__item">
+                <label for="tabTemplates" class="tabs__link tabs__linkTemplates">Templates</label>
+              </li>
+              <li class="tabs__item">
+                <label for="tabPages" class="tabs__link tabs__linkPages">Pages</label>
               </li>
             </ul>
           </div>
@@ -67,12 +75,12 @@
 
         <div class="tabs__line"></div>
         
-        <div class="tabs__content tabs__content1">
+        <div class="tabs__content tabs__contentAll">
           <div class="container">
-            <div class="tabs__list">
+            <div class="tabs__list-component">
               <a class="preview-card" href="/pages/tooltip.html">
                 <div class="preview-card__body">
-                  <div class="tooltip">
+                  <div class="tooltip tooltip_preview">
                     <div class="tooltip__icon">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -86,7 +94,7 @@
                           fill="#212429" />
                       </svg>
                     </div>
-                    <div class="tooltip__text tooltip__text_preview">Helper Text</div>
+                    <div class="tooltip__text">Helper Text</div>
                   </div>
                 </div>
                 <div class="preview-card__footer">
@@ -244,9 +252,9 @@
             <button type="button" class="button button_alternate">Load more</button>
           </div>
         </div>
-        <div class="tabs__content tabs__content2">
+        <div class="tabs__content tabs__contentAtoms">
           <div class="container">
-            <div class="tabs__list">
+            <div class="tabs__list-component">
               <a class="preview-card" href="/pages/histogram.html">
                 <div class="preview-card__body">
                   <div class="histogram">
@@ -310,12 +318,12 @@
             <button type="button" class="button button_alternate">Load more</button>
           </div>
         </div>
-        <div class="tabs__content tabs__content3">
+        <div class="tabs__content tabs__contentMolecules">
           <div class="container">
-            <div class="tabs__list">
+            <div class="tabs__list-component">
               <a class="preview-card" href="/pages/tooltip.html">
                 <div class="preview-card__body">
-                  <div class="tooltip">
+                  <div class="tooltip tooltip_preview">
                     <div class="tooltip__icon">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -399,9 +407,9 @@
             <button type="button" class="button button_alternate">Load more</button>
           </div>
         </div>
-        <div class="tabs__content tabs__content4">
+        <div class="tabs__content tabs__contentOrganisms">
           <div class="container">
-            <div class="tabs__list">
+            <div class="tabs__list-component">
               <a class="preview-card" href="/pages/form-elements.html">
                 <div class="preview-card__body">
 
