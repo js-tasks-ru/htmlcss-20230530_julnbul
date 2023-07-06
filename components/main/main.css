@@ -21,8 +21,12 @@
   margin-bottom: 30px;
 }
 
-.main__sidebar-menu {
+.main__sidebar {
   display: none;
+  min-width: 229px;
+}
+.main__sidebar>*:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 @media (min-width: 576px) {
@@ -53,7 +57,7 @@
     column-gap: 56px;
   }
 
-  .main__sidebar-menu {
+  .main__sidebar {
     display: block;
   }
 }
