@@ -4,6 +4,7 @@
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   font-family: 'Inter';
+  width: 100%;
 }
 
 .histogram_page-component {
@@ -43,7 +44,18 @@
   justify-content: space-between;
   align-items: flex-end;
   gap: 1px;
+  animation: fill 0.5s ease-in;
+  transform-origin:bottom;
 }
+
+ @keyframes fill {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transformY: scaleY(1);
+  }
+} 
 
 .histogram__column {
   background-color: var(--primary);
