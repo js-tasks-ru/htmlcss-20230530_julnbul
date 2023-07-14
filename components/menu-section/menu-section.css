@@ -1,0 +1,40 @@
+.menu-section {
+  font-family: 'Inter';
+}
+.menu-section_burger {
+  padding: 24px 0;
+  border-top: 1px solid var(--grey-2);
+}
+.menu-section__title {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.menu-section__title_burger {
+  color: var(--grey-3);
+}
+
+.menu-section__item:not(:last-child) {
+  margin-bottom: 4px;
+}
+.menu-section__item_burger:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.menu-section__link {
+  font-size: 14px;
+  line-height: 22px;
+  color: inherit;
+}
+.menu-section__link_active {
+  color: #D84910;
+}
+.menu-section__link_burger {
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+.menu-section__link_burger-active {
+  color: #D84910;
+}

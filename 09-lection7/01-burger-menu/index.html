@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <!-- Страница бургер-меню -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./burger-menu.css">
-        <script defer src="./burger-menu.js"></script>
-    </head>
-    <body>
 
-    </body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="./burger-menu.css">
+  <style>
+    .burger-menu-open {
+      all: unset;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body class="preload">
+  <button id="burger-menu-open" class="burger-menu-open">
+    <svg class="burger-menu__icon">
+      <use href="/assets/images/icons.svg#menu"></use>
+    </svg>
+  </button>
+
+  <div id="burger-menu" class="burger-menu">
+    <div class="burger-menu__header">
+      <button id="burger-menu-close" class="burger-menu__close">
+        <svg class="burger-menu__icon">
+          <use href="/assets/images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <a class="burger-menu__logo" href="index.html">
+        <img src="/assets/images/header/logo.svg" alt="logo">
+      </a>
+    </div>
+    <nav class="burger-menu__body">
+      <div class="menu-section menu-section_burger">
+        <div class="menu-section__title menu-section__title_burger">Atoms</div>
+        <ul class="menu-section__list">
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger menu-section__link_burger-active" href="#">Buttons</a>
+          </li>
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Custom form elements</a>
+          </li>
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Modal</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-section menu-section_burger">
+        <div class="menu-section__title menu-section__title_burger">Atoms</div>
+        <ul class="menu-section__list">
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Buttons</a>
+          </li>
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Custom form elements</a>
+          </li>
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Modal</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-section menu-section_burger">
+        <div class="menu-section__title menu-section__title_burger">Atoms</div>
+        <ul class="menu-section__list">
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Buttons</a>
+          </li>
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Custom form elements</a>
+          </li>
+          <li class="menu-section__item_burger">
+            <a class="menu-section__link_burger" href="#">Modal</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <script defer src="./burger-menu.js"></script>
+</body>
+
 </html>
